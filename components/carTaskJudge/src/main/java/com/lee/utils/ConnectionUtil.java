@@ -6,13 +6,13 @@ import redis.clients.jedis.Jedis;
 
 public class ConnectionUtil {
 
-    public static final String CHANNEL_USERNAME = "lee";
-    public static final String JEDIS_PASSWORD = "123Lyl!@#";
-    public static final String CHANNEL_PASSWORD = "123";
-    public static final String HOST = "8.141.64.164";
-    public static final int JEDIS_PORT = 6379;
-    public static final int CHANNEL_PORT = 5672;
-    public static final String VIRTUALHOST = "/";
+    public static final String CHANNEL_USERNAME = "请输入...";
+    public static final String JEDIS_PASSWORD = "请输入...";
+    public static final String CHANNEL_PASSWORD = "请输入...";
+    public static final String HOST = "请输入...";
+    public static final int JEDIS_PORT = 请输入...;
+    public static final int CHANNEL_PORT = 请输入...;
+    public static final String VIRTUALHOST = "请输入...";
 
     public static Connection getConnection() throws Exception{
         ConnectionFactory connectionFactory = new ConnectionFactory();
@@ -26,8 +26,8 @@ public class ConnectionUtil {
     }
 
     public static Jedis getJedis(){
-        Jedis jedis = new Jedis("8.141.64.164", 6379);
-        jedis.auth("123Lyl!@#");
+        Jedis jedis = new Jedis("请输入...", 请输入...);
+        jedis.auth("请输入...");
         return jedis;
     }
 }

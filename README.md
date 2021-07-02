@@ -56,7 +56,7 @@
 
    ![image](https://github.com/Lee0110/carAdventure/blob/master/images/queues.png)
 
-4. 不同文件夹对应不同的组件,可以在不同的电脑上独立运行。运行时，可以写一个Application类让其启动。如下给出一个启动一个导航器的例子。
+4. 不同文件夹对应不同的组件,可以在不同的电脑上独立运行(显示组件和汽车组件放在了一起,用按钮直接增加小车,也可以通过在RabbitMq中创建一个队列来互相通信)。运行时，可以写一个Application类让其启动,我在每一个组件都写好了,根据自己需要进行修改,如果你的电脑强悍,可以开很多个导航器。如下给出一个启动一个导航器的例子。
 
    ```java
    public class Application {

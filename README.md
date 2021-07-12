@@ -83,5 +83,5 @@
 
 ## 程序整体架构图与设计思路
 
-![image](https://github.com/Lee0110/carAdventure/blob/master/images/Architecture.png)
+![image](https://github.com/Lee0110/carAdventure/blob/master/images/carArchitecture.png)
 
